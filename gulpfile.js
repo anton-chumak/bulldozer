@@ -41,7 +41,7 @@ gulp.task('missionThree', function(){
 	gulp.src('dev/img/*.*').pipe(gulp.dest('build/img/'));
 })
 gulp.task('default', function(){
-	gulp.start('missionOne', 'missionTwo','missionZero');
+	gulp.start('missionOne', 'missionTwo','missionZero','missionThree');
 
 	gulp.watch(['dev/css/*.css'], function(){
 		gulp.start('missionOne');
