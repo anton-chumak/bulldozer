@@ -1,10 +1,33 @@
 .header{
 	background-color: #3f4142;
 }
-.logo{
+.logo, .col, .as{
 	text-align: center;
 }
-
+.zvon, .as{
+	color: white;
+}
+.tel{
+	color: #f3af00;
+	font-size: 24px;
+}
+button{
+	height: 50px;
+	width: 40%;
+	background-color: #f3af00;
+}
+.zagolovok{
+  background-color: #949ba3;
+}
+.dd{
+	font-size: 48px;
+}
+.cc{
+	font-size: 30px;
+}
+.er{
+	padding: 48px 0 40px 0;
+}
 
 
 @media screen and (min-width: 800px){

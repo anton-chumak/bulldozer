@@ -108,19 +108,16 @@
   .l8 {
     width: 100%;
   }
-}
-/*--grid end--*/
-.container{
-  width: 100%;
-  margin: 0 auto;
-}
-
-
-
-
-
-@media screen and(min-width: 1000px){
-  .container{
+    .container {
     width: 1000px;
+    margin: 0 auto;
   }
 }
+}
+/*--grid end--*/
+.zagolovok{
+  background-color: #949ba3;
+}
+
+
+
